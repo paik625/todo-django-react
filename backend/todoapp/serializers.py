@@ -6,6 +6,7 @@ class TodoappSerializer(serializers.ModelSerializer):
         fields = (
             'id',
             'title',
+            'check',
             'content',
         )
         model = Todoapp
